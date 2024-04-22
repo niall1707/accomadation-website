@@ -1,0 +1,145 @@
+/* General body styling */
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center text globally */
+}
+
+/* Header styling */
+.site-header {
+    background-color: #022851; /* Dark blue background for header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation styling */
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content styling */
+.introduction {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+.site-footer {
+    background-color: #022851;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Table adjustments */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 50px; /* Position the table slightly to the right */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white; /* Adds a background color to the table */
+}
+
+.data-heading {
+    background-color: #f2f2f2;  /* Light grey background for headers */
+    text-align: left;  /* Align text to the left */
+    padding: 8px;  /* Add space around text in header */
+}
+
+.data-row td {
+    text-align: left;  /* Align text to the left in data cells */
+    padding: 8px;  /* Add space around text in data cells */
+}
+
+.profile-image {
+    width: auto;
+    height: 80px;
+}
+
+/* Style for table rows */
+.data-row {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd; /* Add a bottom border */
+}
+
+/* Ensure the last row does not have a border */
+.data-row:last-child {
+    border-bottom: none;
+}
+
+/* Style for each resident */
+.resident {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd; /* Add a bottom border */
+    padding: 20px;
+}
+
+/* Ensure the last resident does not have a border */
+.resident:last-child {
+    border-bottom: none;
+}
+
+/* Room Details Grid Layout */
+.room-details-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.room-details {
+    background-color: #d9d7d7;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*3d*/
+    transition: transform 0.3s ease-in-out; /* transformation upon hovering */
+}
+
+.room-details:hover {
+    transform: translateY(-10px); /* Slight raise effect on hover */
+}
+
+
